@@ -24,17 +24,17 @@ The endpoint should accept a query parameter called "id" that is used to retriev
 specific product. The endpoint should be accessible via http://localhost:8080/ URL.
 
 todolist:
-- install Google Cloud SDK
-- Cloud Tools VScode extentsion
-- set up GCP project
-- authenticate to GCP
-- install necessary python libraries
-- configure the local enviroment variables
-- NOT WORKING --- deploy on GCP  
-- create firebase project
-- create enable firestore
-- create new collection
-- add sample data
+- install Google Cloud SDK : done
+- Cloud Tools VScode extentsion : done
+- set up GCP project : done
+- authenticate to GCP : done
+- install necessary python libraries : done
+- configure the local enviroment variables : done
+- deploy on GCP  
+- create firebase project : done
+- create enable firestore : done
+- create new collection : done
+- add sample data : done
 ### Examples of environment variables configuration
 export GOOGLE_APPLICATION_CREDENTIALS=C:\Users\tomer\AppData\Roaming\gcloud\application_default_credentials.json
 export GOOGLE_APPLICATION_CREDENTIALS=%APPDATA%\gcloud\application_default_credentials.json
