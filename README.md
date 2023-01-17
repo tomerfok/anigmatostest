@@ -30,7 +30,11 @@ todolist:
 - authenticate to GCP
 - install necessary python libraries
 - configure the local enviroment variables
-- deploy on GCP
+- NOT WORKING --- deploy on GCP  
+- create firebase project
+- create enable firestore
+- create new collection
+- add sample data
 ### Examples of environment variables configuration
 export GOOGLE_APPLICATION_CREDENTIALS=C:\Users\tomer\AppData\Roaming\gcloud\application_default_credentials.json
 export GOOGLE_APPLICATION_CREDENTIALS=%APPDATA%\gcloud\application_default_credentials.json
