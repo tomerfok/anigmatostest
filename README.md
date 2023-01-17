@@ -46,6 +46,7 @@ import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:\\Users\\tomer\\AppData\\Roaming\\gcloud\\application_default_credentials.json"
 
 command to create data: python firestoreinest.py
+
 command to run web server: python main.py
 
 
