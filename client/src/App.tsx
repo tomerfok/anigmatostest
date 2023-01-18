@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 import {
   makeStyles,
@@ -29,12 +30,7 @@ function App() {
   const [json, setJson] = useState<string>();
   
   async function handleSubmit() {
-    let myHeaders = new Headers();
-    myHeaders.append('Content-Type', 'application/json');
-    let respone = await fetch('http://localhost:3000/create', {
-      method: 'POST', 
-      mode: 'no-cors',
-      headers: myHeaders,
+    const response = await axios.post('http://localhost:3000/create', {
       body: JSON.stringify(json)
     });
     return respone;
@@ -65,7 +61,6 @@ function App() {
           required
         />
         <Button
-          type="submit"
           fullWidth
           variant="contained"
           color="primary"
