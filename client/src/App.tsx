@@ -35,8 +35,9 @@ function App() {
       method: 'POST', 
       mode: 'no-cors',
       headers: myHeaders,
-      body: JSON.stringify({"usename": "tomer", "email": "tomer3123@gmail.com"})
-    }).then(response => response.json());
+      body: JSON.stringify(json)
+    });
+    return respone;
   }
 
   const onSubmit = (data: IFormInput) => {
