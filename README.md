@@ -52,7 +52,7 @@ command to run web server: python main.py
 
 #########################################
 ## Cloud deployment error
-tomer@DESKTOP-TNNSRLJ MINGW64 /f/VSCode Projects/anigmatostest/anigmatostest (main)        
+<!-- tomer@DESKTOP-TNNSRLJ MINGW64 /f/VSCode Projects/anigmatostest/anigmatostest (main)        
 $ gcloud run deploy
 Deploying from source. To deploy a container use [--image]. See https://cloud.google.com/run/docs/deploying-source-code for more details.
 Source code location (F:\VSCode Projects\anigmatostest\anigmatostest):  y
@@ -74,4 +74,20 @@ Help Token: AXyI5c_Lkq1OQb_SfVt-krQgDoZ9ZFHcF__WKcrhIvbQ8ltrVhX-4p_rLvtZccty0Ih-
   metadata:
     project: '1006404769026'
     services: run.googleapis.com,containerregistry.googleapis.com
-  reason: UREQ_PROJECT_BILLING_NOT_FOUND
+  reason: UREQ_PROJECT_BILLING_NOT_FOUND -->
+
+## Task #3
+
+Create a simple web page that allows a user to submit a form with a "name" and "email"
+field. Implement the server side with Node.JS , the React framework, Typescript and
+webpack. Upon submission of the form to the server, forward the data to a Flask app
+that inserts the data into a Cloud Firestore document collection called "contacts". Return
+a message to the user indicating that the form submission was successful. Both Node.JS
+server and the Flask server run locally.
+
+todolist:
+- create react application : done
+- create fields : done
+- create nodejs api : done
+- create python flask server : done
+- connect all applications and servers : done
